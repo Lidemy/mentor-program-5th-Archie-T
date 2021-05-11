@@ -3,29 +3,23 @@
 
 ## 假設我今天去 Google 首頁搜尋框打上：JavaScript 並且按下 Enter，請說出從這一刻開始到我看到搜尋結果為止發生在背後的事情。
 
-按下 Enter 時
-
-瀏覽器向作業系統發送 Request
-
- Request 到google 伺服器
-
-google 伺服器與資料庫存取資料
-
-資料庫回傳到 google 伺服器
-
-google 伺服器處理完 Response 回瀏覽器
-
-瀏覽器顯示出畫面
+1. 按下 Enter 時
+2. 瀏覽器向作業系統發送 Request
+3.  Request 到google 伺服器
+4. google 伺服器與資料庫存取資料
+5. 資料庫回傳到 google 伺服器
+6. google 伺服器處理完 Response 回瀏覽器
+7. 瀏覽器顯示出畫面
 
 
 
-網頁前端之於餐廳點餐
+* 網頁前端之於餐廳點餐
 
-​	使用語言： HTML、CSS、JavaScript
+  ​	使用語言： HTML、CSS、JavaScript
 
-網頁後端之於餐廳做餐
+* 網頁後端之於餐廳做餐
 
-​	使用語言：PHP、Java、Ruby、Python、JavaScript
+  ​	使用語言：PHP、Java、Ruby、Python、JavaScript ... 等等
 
 
 
