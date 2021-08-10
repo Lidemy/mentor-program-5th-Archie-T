@@ -11,10 +11,10 @@ rl.on('line', (line) => {
   lines.push(line)
 })
 
-function solve(input) {
+function solve(lines) {
   let result = ''
   // 如果少了此行假的話，如輸入 abs
-  const str = String(input)
+  const str = String(lines)
   // console.log(lines) 得到 [ 'abs' ]
   // console.log(str) 得到 abs
   if (str.length >= 1 && str.length <= 100) {
